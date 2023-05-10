@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="E-com Tips"
+            android:textSize="40sp"
+            app:fontFamily="@font/sabojcharulota"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Start a new Journey"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/ecommerce" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="419dp"
+            android:layout_height="317dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="307dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ই-কমার্সের বৃদ্ধি বাংলাদেশে ব্যবসায়িক প্রগতি এবং অর্থনৈতিক উন্নয়নের জন্য একটি মাহাব্যাপী পরিবর্তন সৃষ্টি করেছে। এটি ব্যবসায়ীদের বিশ্বব্যাপী বাজারে প্রাপ্তির সুযোগ সৃষ্টি করে এবং গ্রাহকদের জন্য একটি সুবিধাজনক কেনাকাটা প্লাটফর্ম সরবরাহ করে। ই-কমার্সের মাধ্যমে কেনাকাটা পদ্ধতি সহজ হয়ে এবং গ্রাহকরা বিভিন্ন পণ্য এবং পরিষেবা একই স্থানে পেতে পারে। এছাড়াও, ই-কমার্সের বৃদ্ধির ফলে সর্বাধিক সুবিধা, বিনিয়োগের নিরাপত্তা, মূল্য সম্পর্কিত তথ্য, পুরোনো সামগ্রিতে কমপ্রতি ও বিশ্বব্যাপী বাজার প্রবর্তন হয়েছে।ই-কমার্সের বৃদ্ধি বাংলাদেশে ব্যবসায়িক প্রগতি এবং অর্থনৈতিক উন্নয়নের জন্য একটি মাহাব্যাপী পরিবর্তন সৃষ্টি করেছে। এটি ব্যবসায়ীদের বিশ্বব্যাপী বাজারে প্রাপ্তির সুযোগ সৃষ্টি করে এবং গ্রাহকদের জন্য একটি সুবিধাজনক কেনাকাটা প্লাটফর্ম সরবরাহ করে। ই-কমার্সের মাধ্যমে কেনাকাটা পদ্ধতি সহজ হয়ে এবং গ্রাহকরা বিভিন্ন পণ্য এবং পরিষেবা একই স্থানে পেতে পারে। এছাড়াও, ই-কমার্সের বৃদ্ধির ফলে সর্বাধিক সুবিধা, বিনিয়োগের নিরাপত্তা, মূল্য সম্পর্কিত তথ্য, পুরোনো সামগ্রিতে কমপ্রতি ও বিশ্বব্যাপী বাজার প্রবর্তন হয়েছে।" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="410dp"
+            android:layout_height="275dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="248dp"
+                    app:srcCompat="@drawable/ecommerce_articale_image_01" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="418dp"
+            android:layout_height="222dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="186dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ই-কমার্স বা ইলেকট্রনিক কমার্স বলতে বুঝায় ইন্টারনেটের মাধ্যমে বিভিন্ন পণ্য ও সেবা কেনাকাটা করার একটি প্রযুক্তি ও ব্যবসায়িক মডেল। এটি সুবিধাজনক, তারকিক এবং দ্রুত বিক্রয় প্রক্রিয়া সরবরাহ করে। ই-কমার্সের মাধ্যমে মানুষেরা অনলাইনে বিভিন্ন পণ্য দেখতে, তথ্য সংগ্রহ করতে এবং অর্ডার দিয়ে কেনাকাটা করতে পারে। বিভিন্ন ই-কমার্স ওয়েবসাইট এবং অ্যাপ্লিকেশন এই প্রয়োজনীয় প্রয়োজনগুলি পূরণ করে। ই-কমার্স প্রযুক্তি একটি নতুন ও স্বাধীন ব্যবসায়িক পরিবেশ সৃষ্টি করে যার মাধ্যমে ব্যবসায়ীরা গ্রাহকদের সাথে সংযোগ স্থাপন করতে পারে এবং প্রয়োজনীয় তথ্য সরবরাহ করতে পারে।" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="0dp"
+            android:layout_height="375dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="295dp"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    app:srcCompat="@drawable/ecommerce_articale_image_02" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

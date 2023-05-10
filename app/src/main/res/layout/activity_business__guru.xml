@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Business Guru"
+            android:textSize="40sp"
+            app:fontFamily="@font/sabojcharulota"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Start a new Journey"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/guru" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="407dp"
+            android:layout_height="198dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বিশাল উন্নতি বাংলাদেশের অর্থনৈতিক ও সামাজিক উন্নয়নের জন্য একটি প্রাধান্যমূলক সাধারণ অবস্থা। এটি দেশের ব্যবসায়িক খাতে অনুপ্রাণিত সাফল্যের সূচক। বিশাল উন্নতি নিশ্চিত করতে হলে ব্যবসায়ীদের উদ্যমিতা, সর্বোচ্চ মানের উৎপাদন ও পরিষেবা, প্রযুক্তির অবদান, সামরিক ও মানসিক সমৃদ্ধি, বিতর্কের ক্ষমতা, ও নতুন আইডিয়াগুলোর গঠন প্রয়োজন। বিশাল উন্নতি যে দেশটির মাধ্যমে হয়, তার আর্থিক প্রগতি, কর্মসংস্থানের বৃদ্ধি, গৃহীত আবাসন এবং জনস্বাস্থ্য সেবা, শিক্ষা ও প্রশিক্ষণের স্বার্থে মূলত গুরুত্বপূর্ণ।"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="375dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="360dp"
+                    android:layout_height="321dp"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    app:srcCompat="@drawable/shop_woman_pic" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="396dp"
+            android:layout_height="186dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" অনলাইন দোকানের বৃদ্ধি বাংলাদেশের ব্যবসায়িক মাধ্যমে একটি দ্রুত ও আন্তর্জাতিক উন্নতি সৃষ্টি করেছে। এটি আর্থিক ও তথ্য প্রযুক্তির সমন্বয়ে ব্যবসা পরিচালনা করার একটি সহজ ও দ্রুতগতির মাধ্যম। অনলাইন দোকান মাধ্যমে ব্যবসায়ীরা প্রোডাক্ট ও সেবা দিয়ে বিশ্বব্যাপী গ্রাহক প্রাপ্তি করতে পারে এবং লক্ষ লক্ষ গ্রাহকদের সন্তুষ্টি পেতে পারে। অনলাইন দোকানের মাধ্যমে ব্যবসায়ীরা ব্যবসার ব্যয় কমাতে পারে, মার্কেট প্রচার করতে পারে, গ্রাহকদের সাথে সংযোগ স্থাপন করতে পারে এবং ব্যবসার আয় বৃদ্ধি করতে পারে।"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

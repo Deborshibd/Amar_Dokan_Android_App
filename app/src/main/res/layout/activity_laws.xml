@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Laws"
+            android:textSize="40sp"
+            app:fontFamily="@font/sabojcharulota"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Know about laws and enforcement"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/business_law" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="413dp"
+            android:layout_height="239dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="235dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="369dp"
+                    android:layout_height="wrap_content"
+                    android:text=" বাংলাদেশে দোকান আইন প্রতিষ্ঠিত হয়েছে দেশের বাণিজ্যিক সংক্রান্ত বিধানগুলোর আলোকে। বাংলাদেশে দোকান চালানোর ক্ষেত্রে একটি প্রণীত আইন ও বিধান বিদ্ধ হয়েছে, যা দোকান মালিকানা, ব্যবস্থাপনা, মনোনয়ন এবং অন্যান্য কার্যক্রমগুলি নির্ধারণ করে। এই আইন দ্বারা দোকান মালিকানা এবং ব্যবস্থাপনার জন্য নির্ধারিত নিয়মাবলী অনুসরণ করা হয়। এছাড়াও, দোকান মালিকানার ও গ্রাহকের মধ্যে সংলগ্ন সমস্যার সমাধানের জন্যও দোকান আইনের গুরুত্বপূর্ণ ভূমিকা রয়েছে।  দোকানের মালিকানা ও ব্যবস্থাপনা করতে হলে প্রথমে ওয়ান স্টপ ব্যবস্থা করে অনুমতি নিতে হয়। বাণিজ্যিক কার্যক্রমে এই অনুমতি নির্গত করে দেওয়া হয় যথাযথ কর্তৃপক্ষ দ্বারা। দোকান নির্মাণ ও সাজানোর জন্য!"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="375dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dokan_potrait_image" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" অনলাইন আইন বাংলাদেশে একটি গুরুত্বপূর্ণ বিষয়। প্রযুক্তির উদ্বিগ্ন এই যুগে, অনলাইন বাণিজ্য এবং ইলেকট্রনিক সনাক্তকারী কার্যক্রমগুলোর সংক্রান্ত নিয়মাবলী দরকার। বাংলাদেশে অনলাইন লেনদেন, ই-কমার্স, ডিজিটাল স্বাক্ষর, ডাটা সুরক্ষা, কাইবার নিরাপত্তা এবং ইলেকট্রনিক সম্পদ সুরক্ষা সংক্রান্ত বিধানগুলো বিদ্যমান আছে। এই আইন ব্যবহার করে দেশের অনলাইন ব্যবসায় নিয়মিত ও ন্যায্যতা নিশ্চিত করা হয় এবং ব্যবহারকারীদের সুরক্ষার জন্য নিয়মাবলী স্থাপন করা হয়।" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="375dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" দোকান বাংলাদেশে ব্যবসার প্রাথমিক একটি আয়োজন। এটি কোন কোন বাণিজ্যিক কার্যক্রমের জন্য প্রযোজ্য হবে তা উপরের নিয়ম অনুসারে নির্ধারণ করা হয়। দোকান মালিকানা ও ব্যবস্থাপনা নিয়ে সম্পূর্ণ নিয়ম ও শর্তাবলী অনুসরণ করতে হয়, যাতে ব্যবসা পরিচালনার দিক থেকে একটি সুস্থ পরিবেশ উপস্থাপন করা যায়। সঠিক দোকান পরিচালনার মাধ্যমে ব্যবসা সমৃদ্ধি এবং গ্রাহকদের সন্তুষ্টি নিশ্চিত করা যায়, যা দেশের বাণিজ্যিক অগ্রগতির জন্য অন্যতম গুরুত্বপূর্ণ।" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

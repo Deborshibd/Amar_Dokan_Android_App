@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Shop Interior"
+            android:textSize="40sp"
+            app:fontFamily="@font/sabojcharulota"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Start a new Journey"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/brand_design" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="402dp"
+            android:layout_height="210dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="184dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" দোকানের ইনটেরিয়র একটি গুরুত্বপূর্ণ বিষয়। এটি গ্রাহকদের আকর্ষণ আর আনন্দ উভয় সৃষ্টি করে। উপযুক্ত আলোকসঙ্গীত, রঙবিন্যাস এবং আকর্ষণীয় ডিজাইন একটি আদর্শ দোকান ইনটেরিয়র সৃষ্টি করে। এটি দোকানের ব্র্যান্ড ও পন্থানীতির প্রতীকও হতে পারে। একটি ভালো ইনটেরিয়র দ্বারা গ্রাহকদের আত্মবিশ্বাস এবং বিশ্বাস জন্মায়। তাই, দোকান ইনটেরিয়রে উপযুক্ত মালামাল, সার্ভিস কাউন্টার এবং সুবিধাযুক্ত বস্তুসমূহ থাকলে গ্রাহকদের আনন্দ এবং সন্তুষ্টি হয়।"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="410dp"
+            android:layout_height="236dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="258dp"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    app:srcCompat="@drawable/interior_images_01" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="415dp"
+            android:layout_height="179dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="রেস্টুরেন্টের ইনটেরিয়র খুবই গুরুত্বপূর্ণ একটি বিষয়। এটি গ্রাহকদের আকর্ষণ এবং সুবিধা উভয়ই সৃষ্টি করে। ভালো আলোকসংগীত, সুন্দর ডিজাইন এবং প্রয়োজনীয় সুবিধাযুক্ত আসবাবপত্র একটি আদর্শ রেস্টুরেন্ট ইনটেরিয়র সৃষ্টি করে। যথায়থ সাজ-সজ্জা, আদর্শ সার্ভিস এবং কমপ্রতি মাধ্যমে গ্রাহকদের আনন্দ এবং সন্তুষ্টি নিশ্চিত করলে তারা রেস্টুরেন্টে ফিরে আসার ইচ্ছা অনুভব করবে। তাই, রেস্টুরেন্ট ইনটেরিয়রে উপযুক্ত বিচার দেয়া উচিত, যাতে গ্রাহকদের আনন্দ ও সন্তুষ্টি সর্বদাই বজায় থাকে।"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="405dp"
+            android:layout_height="247dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="406dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    app:srcCompat="@drawable/interior_images_02" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="408dp"
+            android:layout_height="210dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="মোটরসাইকেল দোকানের ইনটেরিয়র অনেকটা মোটরসাইকেলের মতোই আকর্ষণীয় হওয়া উচিত। এটি গ্রাহকদের প্রথম মুখ প্রদর্শন করে এবং একটি কার্যকরী এবং আনন্দদায়ক বাইক বিক্রয় এরিয়া সৃষ্টি করে। আকর্ষণীয় ডিজাইন, আলোকসংগীত, ব্র্যান্ডেড পন্থানীতি, সুবিধাযুক্ত দেখার জন্য ডিসপ্লে করা পন্থা এবং গ্রাহকদের আনন্দ এবং সন্তুষ্টি নিশ্চিত করে। মোটরসাইকেল দোকানের ইনটেরিয়র প্রশাসন, ক্রেতাদের কাছে উচ্চমানের প্রতিষ্ঠানের একটি ভাব প্রদর্শন করে এবং একটি আকর্ষণীয় কেনাকাটা অভিজ্ঞতা প্রদান করে।" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="407dp"
+            android:layout_height="291dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="255dp"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    app:srcCompat="@drawable/interior_images_03" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
